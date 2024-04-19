@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15_JoinForm.html</title>
+</head>
+<body>
+    <table width="700" callspacing="1" border="0" bgcolor="blue" >
+        <tr height="30" bgcolor="white">
+            <th>아이디</th>
+            <td><input type="text" name="id" >
+            </td>
+        </tr>
+        <tr  bgcolor="white" height="30">
+            <td align="center"><h3>Password</h3></td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr  bgcolor="white" height="30">
+            <th>전화번호</th></td>
+            <td>
+                <select name="firstPhonenum">
+                    <option value="0">010</option>
+                    <option value="1">011</option>
+                    <option value="2">017</option>
+                </select>
+                -
+                <input type="text" name="middlePhonenum" size="4">
+                -
+                <input type="text" name="lastPhonenum" size="4">
+            </td>
+        </tr>
+        <tr  bgcolor="white" height="30">
+            <th>성별</th></td>
+            <td>
+                남자<input type="radio" name="gender" value="m">
+                여자<input type="radio" name="gender" value="f">
+            </td>
+        </tr>
+        <tr  bgcolor="white" height="30">
+            <th>알게된 경로</th></td>
+            <td>
+                <input type="checkbox" name="knownPath" value="newspaper">신문
+                <input type="checkbox" name="knownPath" value="tv">TV
+                <input type="checkbox" name="knownPath" value="introduction">지인소개
+                <input type="checkbox" name="knownPath" value="others">기타
+            </td>
+        </tr>
+        <tr  bgcolor="white" height="30">
+            <th>직업</th></td>
+            <td>
+                <select name="job">
+                    <option value="0">선택안함</option>
+                    <option value="1" selected>학생</option>
+                    <option value="2">주부</option>
+                    <option value="2">직장인</option>
+                    <option value="2">기타</option>
+                </select>
+            </td>
+        </tr>
+        <tr  bgcolor="white" height="30">
+            <th>생년월일</th></td>
+            <td>
+                <input type="text" name="year" size="6">년 
+                <select name="months">
+                    <option value="0" >--</option>
+                    <option value="1" selected>1</option>
+                    <option value="2" >2</option>
+                    <option value="3" >3</option>
+                    <option value="4" >4</option>
+                    <option value="5" >5</option>
+                    <option value="6" >6</option>
+                    <option value="7" >7</option>
+                    <option value="8" >8</option>
+                    <option value="9" >9</option>
+                    <option value="10" >10</option>
+                    <option value="11" >11</option>
+                    <option value="11" >12</option>
+                </select>월 
+                <select name="days">
+                    <option value="0" >--</option>
+                    <option value="1" selected>1</option>
+                    <option value="2" >2</option>
+                    <option value="3" >3</option>
+                    <option value="4" >4</option>
+                    <option value="5" >5</option>
+                    <option value="6" >6</option>
+                    <option value="7" >7</option>
+                    <option value="8" >8</option>
+                    <option value="9" >9</option>
+                    <option value="10" >10</option>
+                    <option value="11" >11</option>
+                    <option value="11" >12</option>
+                    <option value="12" >13</option>
+                    <option value="13" >14</option>
+                    <option value="14" >15</option>
+                    <option value="15" >16</option>
+                    <option value="16" >17</option>
+                    <option value="17" >18</option>
+                    <option value="18" >19</option>
+                    <option value="19" >20</option>
+                    <option value="20" >21</option>
+                    <option value="21" >22</option>
+                    <option value="22" >23</option>
+                    <option value="23" >24</option>
+                    <option value="24" >25</option>
+                    <option value="25" >26</option>
+                    <option value="26" >27</option>
+                    <option value="27" >28</option>
+                    <option value="28" >29</option>
+                    <option value="29" >29</option>
+                    <option value="30" >30</option>
+                    <option value="31" >31</option>
+                </select>일
+            </td>
+        </tr>
+        <tr  bgcolor="white" height="30">
+            <th>주소</th></td>
+            <td><input type="text" name="address" size="60"></td>
+        </tr>
+
+        <tr bgcolor="white" height="30">
+            <th>인삿말</th>
+            <td>
+                <!-- 멀티라인 텍스트입력란 -->
+                <textarea cols="50" rows="10" name = "intro"></textarea>
+            </td>
+        </tr>
+
+        <tr  bgcolor="white">
+            <td colspan ="2" align = "center">
+            <input type="submit" value="회원가입">
+            <input type="submit" value="다시작성">
+        </td>
+        </tr>
+        
+    </table>
+</body>
+</html>
